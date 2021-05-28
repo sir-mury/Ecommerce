@@ -1,0 +1,13 @@
+
+
+# PATCH http://127.0.0.1:8000/api/v1/profile/2 HTTP/1.1
+# Content-Type: application/json
+# Authorization: Token a392985a833aecadb74be5dac566b7efb186a9b6
+
+# {
+#     "first_name" : "Murtala"
+# }
+
+
+GET http://127.0.0.1:8000/api/v1/orders HTTP/1.1
+Authorization: Token a392985a833aecadb74be5dac566b7efb186a9b6
